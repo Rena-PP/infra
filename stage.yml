@@ -1,4 +1,5 @@
 ---
-- hosts: web:db
+- hosts: web
   roles:
-     - { role: 'hostname' }
+    - { role: 'common' } 
+    - { role: 'hostname' }
