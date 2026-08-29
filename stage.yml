@@ -1,5 +1,5 @@
 ---
 - hosts: web
   roles:
-    - { role: 'common' } 
-    - { role: 'hostname' }
+#    - { role: 'common' }
+    - { role: 'swaptrasher' }
