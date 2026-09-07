@@ -3,4 +3,5 @@
   roles:
 #    - { role: 'common' }
 #    - { role: 'swaptrasher' }
-    - { role: 'add_user' }
+#    - { role: 'add_user' }
+    - { role: 'ssh_setup' }
