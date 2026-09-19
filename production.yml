@@ -5,7 +5,7 @@
 #    - { role: 'swaptrasher' }
 #    - { role: 'add_user' }
 #    - { role: 'ssh_setup' }
-#    - { role:  'add_users' }
-#    - { role: 'setup_ssh_for_users' }
-#    - { role: 'sudoers' }
+    - { role: 'add_users' }
+    - { role: 'setup_ssh_for_users' }
+    - { role: 'sudoers' }
     - { role: 'docker' }
